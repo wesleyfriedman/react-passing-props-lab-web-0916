@@ -17,29 +17,4 @@ Filter.defaultProps = {
   handleChange: function() {}
 }
 
-
-// class Filter extends Component {
-//   constructor() {
-//     super();
-//
-//     this.state = {
-//       filters: []
-//     };
-//
-//     this.fetchFilters = this.fetchFilters.bind(this);
-//   }
-//
-//   componentWillMount() {
-//     this.fetchFilters();
-//   }
-//
-
-//
-//   render() {
-    // return (
-
-  //   );
-  // }
-// }
-
 module.exports = Filter;

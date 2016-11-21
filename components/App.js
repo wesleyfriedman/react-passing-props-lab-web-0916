@@ -43,28 +43,10 @@ class App extends Component {
       fruit = {this.state.fruit}
       filters = {this.state.filters}
       currentFilter = {this.state.currentFilter}
-      updateFilterCallback = {this.state.updateFilter}/>
+      updateFilterCallback = {this.state.updateFilter}
+    />
     );
   }
 }
 
 module.exports = App;
-
-  //
-  //   this.updateFruitList = this.updateFruitList.bind(this);
-  //   this.toggleListMode = this.toggleListMode.bind(this);
-  // }
-  //
-  // componentWillMount() {
-  //   this.updateFruitList();
-  // }
-  //
-  // toggleListMode() {
-  //   this.setState({ showEaten: !this.state.showEaten });
-  // }
-  //
-  // updateFruitList() {
-  //   fetch('/api/fruit?eaten=' + this.state.showEaten).then((data) => {
-  //     this.setState({ fruits: data });
-  //   });
-  // }
